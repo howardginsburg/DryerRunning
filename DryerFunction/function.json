@@ -1,0 +1,13 @@
+{
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "myIoTHubMessage",
+      "direction": "in",
+      "path": "DryerEvents",
+      "connection": "GinsburgIOTHub_events_IOTHUB",
+      "consumerGroup": "$default"
+    }
+  ],
+  "disabled": false
+}
